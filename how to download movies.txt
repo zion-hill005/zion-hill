@@ -1,0 +1,130 @@
+#purpose of the program
+print("this is a program for a website to download movies")
+#display
+print("welcome to movies.net")
+#prompt the user to log in first
+username=input("enter your username:")
+#prompt the user to enter the password
+password=int(input("enter your password:"))
+#prompt the user to enter the search
+print("enter the name of the movie:")
+#display the options
+option=int(input("please select an option/n1)A-E/n2)F-J/n3)K-O/n4)P-T/n5)U-Z/n:"))
+#print out the user's choice
+if(option==1):
+    print("A-E")
+elif(option==2):
+    print("f-j")
+elif(option==3):
+    print("K-O")
+elif(option==4):
+    print("P-T")
+elif(option==5):
+    print("u-z")
+else:
+    print("invalid choice")
+#evaluate the option chosen by the user
+if(option==1):
+  option=int(input("please select an option/n31)arrow/n32)brave/n33)constantine/n34)dracula/n35)everybody wants some/n:"))
+#print out the user's choice
+if(option==31):
+    print("arrow")
+elif(option==32):
+    print("brave")
+elif(option==33):
+    print("costantine")
+elif(option==34):
+    print("dracula")
+elif(option==35):
+    print("everyone wants some")
+
+if(option==2):
+  option=int(input("please select an option/n6)friends/n7)gotham/n8)harry potter/n9)ice age/n10)jungle book/n:"))
+#print out the user's choice
+if(option==6):
+    print("friends")
+elif(option==7):
+    print("gotham")
+elif(option==8):
+    print("harry potter")
+elif(option==9):
+    print("ice age")
+elif(option==10):
+    print("jungle book")
+
+if(option==3):
+  option=int(input("please select an option/n11)kyle xy/n12)little italy/n13)midnight texas/n14)narcos/n15)once upon a time/n:"))
+#print out the user's choice
+if(option==11):
+    print("kylexy")
+elif(option==12):
+    print("litle italy")
+elif(option==13):
+    print("midnight texas")
+elif(option==14):
+    print("narcos")
+elif(option==15):
+    print("once upon a time")
+    
+if(option==4):
+  option=int(input("please select an option/n16)pirate fairy/n17)quantico/n18)reckless love/n19)supernaturals/n20)titans/n:"))
+#print out the user's choice
+if(option==16):
+    print("pirate fairy")
+elif(option==17):
+    print("quantico")
+elif(option==18):
+    print("reckless love")
+elif(option==19):
+    print("supernaturals")
+elif(option==20):
+    print("titans")
+ 
+if(option==5):
+  option=int(input("please select an option/n21)u/n22)v/n23)westworlds/n24)x/n25)y/n26)zorro/n:"))
+#print out the user's choice
+if(option==21):
+    print("u")
+elif(option==22):
+    print("v")
+elif(option==23):
+    print("westworlds")
+elif(option==24):
+    print("x")
+elif(option==25):
+    print("y")
+elif(option==26):
+    print("zorro")
+    
+#Ask the user to download
+print("the movie should be downloaded in")
+download=int(input("please select an option/n1)Mp3/n2)MP4/n3)HD/n:"))
+#print users choice
+if(download==1):
+    print("Mp3")
+elif(download==2):
+    print("Mp4")
+elif(download==3):
+    print("HD")
+else:
+    print("invalid choice")
+
+#ask the user to download subtitle
+print("the movie should be downloaded in what language?")
+subtitle=int(input("Please select a language/n1)english/n2)french/n3)chinese/n:"))
+#print the users choice
+if(subtitle==1):
+    print("english")
+elif(subtitle==2):
+    print("french")
+elif(subtitle==3):
+    print("chinese")
+else:
+    print("invalid choice")
+    
+print("continue download")
+#download the file
+print("download in progress")
+
+
+
