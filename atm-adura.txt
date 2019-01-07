@@ -1,0 +1,34 @@
+#display the purpose of the program
+print("this is a program for an ATM")
+#display the instructions to your user
+print("please insert your card")
+#prompt the user to enter their pin
+pin=int(input("please enter your four digit number:"))
+#display the options
+option=int(input("please select an option/n1)inquiry/n2)withdrawals/n3)cash transfer/n4)pin change/Sn:"))
+#print out the user's choice
+if(option==1):
+    print("inquiry")
+elif(option==2):
+      print("withdrawals")
+else:
+    print("invalid choice")            
+#display the options
+withdrawals=int(input("please select an option/n1)savings/n2)current/n:"))
+#print out the user's choice
+if(withdrawals==1):
+    print("savings")
+elif(withdrawals==2):
+    print("current")
+else:
+    print("invalid choice")
+#ask the user to select an amount
+if(withdrawals==1):
+    amount=int(input("please select an amount/n1)500/n2)1000/n2)5000/n3)10000/n4)15000/n5)20000/n:"))
+if(withdrawals==2):
+    amount=int(input("please select an amount/n1)500/n2)1000/n2)5000/n3)10000/n4)15000/n5)20000/n:"))
+    print(amount)
+#add
+print("please take your cash")
+print("thank you for banking with us")
+
