@@ -1,0 +1,41 @@
+# the word  guessing game
+
+import random
+
+WORDS = ("philosophy", "hippopotamus", "jungle", "dolphin", "algorithm", "dictionary", "sword", "castle", "handball", "batmobile", "weather", "hangman",
+         "battleship", "badge","califonia", "allotropy", "magazine", "extinguisher", "ndani", "billionaire")
+word = random.choice(WORDS)
+
+correct = word
+question =""
+
+while word:
+    position = random.randrange(len(word))
+    question += word[position]
+    word = word[:position] + word[(position + 1):]
+
+# start the game
+print(
+    """
+            WELCOME TO THE WORD GUESSING GAME
+            =================================
+    unscramble the letters to make a word\n
+    """
+    )
+print("the question is : ", question)
+
+guess = input("\nYour guess: ")
+while guess != correct and guess != "":	
+    print("sorry, that's not it.")
+    guess = input("your guess:")
+    
+if guess == correct:
+    print("that's correct! you guessed it!\n")
+
+print("thank you for playing")
+input("\n\nPress the enter key to exit")
+
+ 
+    
+    
+
